@@ -21,7 +21,7 @@ $ git config --global user.email "your@email.com
 8. commit 정보 확인
 $ git log
 
---------------
+----------------------------
 1. remote 정보 확인
 $ git remote
 $ git remote -v
@@ -30,11 +30,10 @@ $ git remote -v
 $ git remote add 리모트이름 github repository주소
 $ git remote add origin https://github.com/seon-creator/git-practice.git
 
-3. remote 삭제
+3. remote 삭제 (option)
 $ git remote rm 리모트이름
 $ git remote rm origin
 
-
-
-
-
+4. 파일 내용 업로드
+$ git push -u 리모트이름 branch_name
+$ git push -u origin main
