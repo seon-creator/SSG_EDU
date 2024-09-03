@@ -2,14 +2,39 @@
 2. 초기화(.git 폴더 생성)
 $ git init
 
-3. 브랜치 이름 기본값 main으로 설정하기(optional)
+3. 브랜치 이름 기본값 main으로 설정하기 (optional)
 $ git config --global init.defaultBranch main
 
-4. git 상태 확인
+4. git 상태 확인 (optional)
 $ git status
 
 5. git 으로 관리중인 '모든'파일을 추가
 $ git add .
 
-6. 
+6. commit: add 한 시점을 저장
+$ git commit -m "simple explanation msg"
+
+7. commit 이전, 개인정보 등록 (global 옵션은 컴퓨터 전체에 적용됨)
+$ git config --global user.name "Your name"
+$ git config --global user.email "your@email.com
+
+8. commit 정보 확인
+$ git log
+
+--------------
+1. remote 정보 확인
+$ git remote
+$ git remote -v
+
+2. remote 추가
+$ git remote add 리모트이름 github repository주소
+$ git remote add origin https://github.com/seon-creator/git-practice.git
+
+3. remote 삭제
+$ git remote rm 리모트이름
+$ git remote rm origin
+
+
+
+
 
