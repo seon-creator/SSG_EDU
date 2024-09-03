@@ -1,0 +1,15 @@
+1. git으로 관리할 경로로 이동
+2. 초기화(.git 폴더 생성)
+$ git init
+
+3. 브랜치 이름 기본값 main으로 설정하기(optional)
+$ git config --global init.defaultBranch main
+
+4. git 상태 확인
+$ git status
+
+5. git 으로 관리중인 '모든'파일을 추가
+$ git add .
+
+6. 
+
