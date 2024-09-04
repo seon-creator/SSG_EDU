@@ -1,0 +1,12 @@
+Task Rule
+1. 프로젝트 시작 시 Readme 파일을 생성
+2. Readme 파일에는 프로젝트에 사용되는 환경 모듈 정보 입력
+3. branch는 팀원 수만큼 생성
+ex 4명
+[Branch]
+- main: 최종 merge 결과물 저장
+- name1: 팀원1 작업
+- name2: 팀원1 작업
+- name3: 팀원1 작업
+- name4: 팀원1 작업
+4. commit 내용형식 : 업로드일_파일설명

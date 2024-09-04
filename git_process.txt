@@ -71,5 +71,7 @@ $ git commit -m "info"
 - 특정 branch 삭제
 $ git branch -d 브랜치명
 
-- 삭제한 브랜치 복구
+- 브랜치 복구
 $ git branch 브랜치명 커밋번호
+
+git log --grep --oneline
