@@ -21,7 +21,8 @@ $ git config --global user.email "your@email.com
 8. commit 정보 확인
 $ git log
 
-----------------------------
+========================
+[github에 코드 업로드 하기]
 1. remote 정보 확인
 $ git remote
 $ git remote -v
@@ -37,3 +38,25 @@ $ git remote rm origin
 4. 파일 내용 업로드
 $ git push -u 리모트이름 branch_name
 $ git push -u origin main
+(-u 옵션: 다음 명령어부터는 git push 만 해도 동일하게 동작함)
+
+========================
+[github에서 코드 불러오기]
+clone
+- 로컬에 코드가 없는 상태에서 코드를 다운받을 때
+
+pull
+- 로컬에 코드가 있는 상태에서 변경사항을 불러올 때
+
+========================
+branch 작성
+- branch 목록 확인
+$ git branch
+
+- branch 생성
+$ git branch test01
+
+- branch 이동
+$ git switch test01
+
+- branch에서 
