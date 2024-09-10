@@ -98,21 +98,33 @@ $ git add .
 $ git commit -m "fixed untracked files"
 
 [reset]
-–soft: 커밋을 취소하지만 스테이징 영역에는 그대로 남겨둡니다.
+–soft:
+커밋을 취소하지만 스테이징 영역에는 그대로 남겨둡니다.
 워킹 디렉토리의 변경 사항은 그대로 유지됩니다.
 스테이징 영역의 변경 사항은 그대로 유지됩니다.
 커밋 기록은 변경되지 않습니다.
 
-–mixed: 커밋을 취소하고 스테이징 영역을 비웁니다.
+–mixed:
+커밋을 취소하고 스테이징 영역을 비웁니다.
 워킹 디렉토리의 변경 사항은 그대로 유지됩니다.
 스테이징 영역은 비워집니다.
 커밋 기록은 변경되지 않습니다.
 
-–hard: 커밋을 취소하고 스테이징 영역과 워킹 디렉토리를 모두 이전 상태로 되돌립니다.
+–hard:
+커밋을 취소하고 스테이징 영역과 워킹 디렉토리를 모두 이전 상태로 되돌립니다.
 워킹 디렉토리의 변경 사항은 모두 삭제됩니다.
 스테이징 영역은 비워집니다.
 커밋 기록은 변경됩니다.
 
 $ git reset --soft 커밋id(7자리)
 $ git reset --mixed 커밋id(7자리)
+$ git reset --hard
+
+[revert]: 특정 commit 단계로 전환할 때
+$ git revert hash번호(7자리정도)
+
+- revert 후에는 commit을 해야 revert가 완료됨
+$ git commit -m "revert complete to hash번호"
+
+- revert를 취소하고 싶다면 아래 명령어 입력
 $ git reset --hard

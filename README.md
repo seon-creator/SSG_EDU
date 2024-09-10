@@ -1,1 +1,1 @@
-# This branch is for Seondeok's task
+# SSG EDU class summurize
